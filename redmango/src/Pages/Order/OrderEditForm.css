@@ -1,0 +1,70 @@
+.OrderEditForm {
+    width: 300px;
+    margin: 20px auto; /* Vendosni marginin auto për të qendruar në mes */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .OrderEditForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .OrderEditForm input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .OrderEditForm input:focus {
+    outline: none;
+    border-color: #4caf50;
+  }
+  
+  .OrderEditForm .updateButton {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .OrderEditForm .updateButton:hover {
+    background-color:green ;
+    color: white;
+  }
+  
+  .OrderEditForm button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .OrderEditForm .cancelButton {
+    color: #cc0000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .OrderEditForm .cancelButton:hover {
+    background-color: #cc0000;
+    color: white;
+  }
+  
